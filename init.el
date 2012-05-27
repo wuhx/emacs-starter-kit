@@ -32,3 +32,7 @@
      'han
      (font-spec :family "Hiragino Sans GB" ))
 
+;evil mode
+(add-to-list 'load-path "~/.emacs.d/evil")
+(require 'evil)
+(evil-mode 1)
